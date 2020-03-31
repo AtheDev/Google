@@ -1,0 +1,285 @@
+body {
+	margin: 0;
+	font-family: arial,sans-serif;
+	height: 100%;
+	min-width: 980px;
+}
+
+
+header {
+	display: flex;
+	flex-direction: row-reverse;
+	height: 50px;
+	margin-top: 8px;
+	font-size: 13px;
+}
+
+.BlockD {
+	display: flex;
+	min-width: 244px;
+	align-items: center;
+	padding: 0 30px;
+}
+
+.BoxGmailImage {
+	display: flex;
+	padding-right: 15px;
+}
+
+.BoxGmail {
+	display: inline-block;
+	align-items: center;
+}
+
+.BoxImage {
+	display: inline-block;
+	align-items: center;
+	padding-left: 15px;
+}
+
+.BoxGmailImage a {
+	text-decoration: none;
+	color: black;
+}
+
+.BoxGmailImage a:hover {
+	opacity: 0.55;
+	text-decoration: underline;
+}
+
+.BoxAplliConnect {
+	display: flex;
+}
+
+a.Aplli:hover {
+	opacity: 1;
+}
+
+.Aplli {
+	background-position: -132px -38px;
+	background-size: 528px 68px;
+	opacity: .55;
+	background-image: url(go.png);
+	display: inline-block;
+	align-items: center;
+	height: 30px;
+	width: 30px;
+}
+
+.BoxConnect {
+	display: flex;
+	align-items: center;
+	padding-left: 15px;
+}
+
+.Connect {
+	height: 30px;
+	background-color: #4285f4;
+	border: 1px solid #4285f4;
+	border-radius: 2px;
+	padding: 0 12px;
+	line-height: 28px;
+}
+
+.Connect a {
+	text-decoration: none;
+	color: #FFF;
+	font-weight: bold;
+	cursor: default;
+}
+
+
+section {
+	display: block;
+	justify-content: center;
+	height: 408px;
+	font-size: 13px;
+	margin-top: 39px;
+}
+
+.LogoGoogle {
+	text-align: center;
+	height: 233px;
+	width: 100%;
+}
+
+img.ImageGoogle {
+	height: 92px;
+	width: 272px;
+	padding-top: 109px;
+}
+
+.BarreRecherche {
+	height: 140px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.BarreRe {
+	height: 134px;
+	padding-top: 6px;
+	width: 484px;
+	margin: 0 auto;
+}
+
+.Recherche {
+	height: 44px;
+	width: 482px;
+	border: 1px solid #dfe1e5;
+	border-radius: 24px;
+	margin: 0 auto;
+}
+
+.Recherche:hover {
+	box-shadow: 0 1px 6px rgba(32,33, 36, 0.28);
+	border-color: rgba(223,225,229,0);
+}
+
+.recherche {
+	display: flex;
+	height: 39px;
+	padding: 5px 8px 0 16px;
+	padding-left: 14px;
+}
+
+.Loupe {
+	height: 44px;
+	width: 20px;
+	padding-right: 13px;
+	margin-top: -5px;
+	display: flex;
+}
+
+.loupe {
+	height: 26px;
+	width: 20px;
+	margin-top: 9px;
+	margin-bottom: 9px;
+}
+
+.lo {
+	height: 20px;
+	width: 20px;
+	fill: currentColor;
+	color: #9AA0A6;
+	margin-top: 3px;
+	line-height: 24px;
+}
+
+.Texte {
+	height: 39px;
+	width: 387px;
+}
+
+.Micro {
+	display: flex;
+	align-items: center;
+	height: 44px;
+	width: 40px;
+	margin-top: -5px;
+}
+
+.micro {
+	height: 44px;
+	width: 24px;
+	padding: 0 8px;
+	display: flex;
+	align-items: center;
+}
+
+.photoMicro {
+	background-size: 24px;
+	background-image: url(micro.png);
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	vertical-align: middle;
+	line-height: 44px;
+}
+
+div.micro:hover {
+	cursor: pointer;
+}
+
+.Rectangle {
+	height: 70px;
+	padding-top: 18px;
+}
+
+.rectangle {
+	height: 58px;
+	text-align: center;
+}
+
+.Bouton {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+input.Bouton:hover {
+	color: #222;
+	border: 1px solid #c6c6c6;
+	background-color: #f8f8f8;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+
+footer {
+	background-color: #f2f2f2;
+	line-height: 40px;
+	border-top: 1px solid #e4e4e4;
+	font-size: 14px;
+	bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+.Pays {
+	height: 40px;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.pays {
+	padding-left: 27px;
+	color: rgba(0,0,0,0.54);
+}
+
+a.info {
+	padding-left: 27px;
+	margin: 0;
+	color: #5f6368;
+	text-decoration: none;
+}
+
+a.info:hover {
+	text-decoration: underline;
+}
+
+.InfoDroite {
+	float: right;
+	white-space: nowrap;
+	margin-right: 30px;
+}
+
+.InfoGauche {
+	white-space: nowrap;
+	margin-right: 30px;
+}
+
+
+
+
+
+
+
